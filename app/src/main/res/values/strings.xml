@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dashboard</string>
+    <string name="boton_regresar">Home</string>
+    <string name="charles">La esencia misma del instinto es que se sigue independientemente de la razón.</string>
+    <string name="freud">Ser completamente honesto con uno mismo es un buen ejercicio</string>
+    <string name="newton">Si he logrado ver más lejos, ha sido porque he subido a hombros de gigantes</string>
+    <string name="galileo">El gran libro de la naturaleza está escrito en símbolos matemáticos</string>
+    <string name="tesla">Nuestros primeros esfuerzos son puramente instintivos, de una imaginación vívida e indisciplinada.</string>
+    <string name="einstein">La vida es una preparación para el futuro; y la mejor preparacion para el futuro es vivir como si no hubiera ninguno</string>
+</resources>

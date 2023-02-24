@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="424dp"
+        android:layout_height="810dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="206dp"
+                android:layout_height="260dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/boton2" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/boton1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="206dp"
+                android:layout_height="262dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/boton3" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="214dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/boton4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="206dp"
+                android:layout_height="262dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/boton5" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="206dp"
+                android:layout_height="262dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/boton6" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
